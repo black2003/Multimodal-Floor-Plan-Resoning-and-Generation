@@ -2,7 +2,7 @@
 
 A comprehensive AI research and application project for multi-modal floor-plan understanding and reasoning, featuring deep learning modules, preprocessing, fusion, explainability, and a complete frontend interface.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 This project implements an end-to-end pipeline for floor plan analysis with the following components:
 
@@ -14,7 +14,7 @@ This project implements an end-to-end pipeline for floor plan analysis with the 
 - **Explainability**: Grad-CAM, attention visualization, constraint tracing
 - **Frontend**: React-based interactive interface
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── backend/                 # Flask/FastAPI backend
@@ -31,7 +31,7 @@ This project implements an end-to-end pipeline for floor plan analysis with the 
 └── docs/                  # Documentation
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Backend Setup
 
@@ -73,7 +73,7 @@ npm install
 npm start
 ```
 
-## 🎯 Features
+##  Features
 
 - **Multi-Modal Analysis**: Process images, text, and graph representations
 - **Interactive Visualization**: Real-time attention maps and graph visualization
@@ -82,17 +82,17 @@ npm start
 - **Similarity Retrieval**: Find similar floor plans using contrastive learning
 - **Validity Checking**: Neuro-symbolic validation with repair suggestions
 
-## 📊 Dataset
+##  Dataset
 
 Uses the pseudo-floor-plan-12k dataset containing floor plan images and natural language captions.
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Backend**: Flask/FastAPI, PyTorch, Transformers
 - **Frontend**: React, TailwindCSS, shadcn/ui
 - **ML Models**: ViT, DistilBERT, Graph Attention Networks
 - **Visualization**: D3.js, WebGL, Canvas API
 
-## 📝 License
+##  License
 
 MIT License - see LICENSE file for details.
